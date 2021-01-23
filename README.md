@@ -49,17 +49,11 @@ Permite acessar as features mais recentes do javascript;
 
     O editor do vsc vai avisar quando precisa adicionar o tipo da variavel.
 
-    Ao passar o cursor em cima  de uma variavel/parametro vamos conseguir ver o tipo dela, por isso não é preciso definir em alguns casos pois o proprio VSC sabe que o response é uma extensão do app que é uma extensão do Express
+    Ao passar o cursor em cima  de uma variavel/parametro vamos conseguir ver o tipo dela, por isso não é preciso definir em alguns casos pois o proprio VSC sabe que o response é uma extensão do app que é uma extensão do Express;
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7198761-54d9-40ee-936d-efaf8afe931a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7198761-54d9-40ee-936d-efaf8afe931a/Untitled.png)
+Se clicarmos Ctrl+ lib importada (Ex: 'express') vai abrir a guia index.d.ts que é onde fica a definição de tipos do pacote, nesse arquivo só vai conter as informações dos tipos de cada função dentro do pacote
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b954a3ae-f900-49d1-b9e7-f466edf33d5b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b954a3ae-f900-49d1-b9e7-f466edf33d5b/Untitled.png)
-
-Se clicarmos Ctrl+ lib importada (Ex: 'express') vai abrir a guia index.d.ts que é onde fica a definição de tipos do pacote, nesse arquivo só vai conter as informações dos tipos de cada função dentro do pacote ex:
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a1b4d0b-0095-47b0-9a76-e042fd0d9b93/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a1b4d0b-0095-47b0-9a76-e042fd0d9b93/Untitled.png)
-
-Para saber os tipos que uma lib exporta vamos dentro do cochete e clicar 'Ctrl + Espaço', vai mostrar as opções de tipagens daquela libe
+Para saber os tipos que uma lib exporta vamos dentro do cochete e clicar 'Ctrl + Espaço', vai mostrar as opções de tipagens daquela lib
 
 ```jsx
 import { Request, Response } from 'express'
